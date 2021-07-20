@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: $fontSize;
+}
+
+body {
+    @include flex(stretch, space-between);
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-title {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+
+    &__aside {
+        @include flex(flex-start, center);
+        padding-top: .5rem;
+        min-width: $asideWidth;
+
+        &--pink {
+            background-color: $pink;
+        }
+
+        &--blue {
+            background-color: $blue;
+        }
+    }
+
+    &__content {
+        flex-grow: 1;
+        padding: 1.5rem 2rem;
+    }
+
+    &__text {
+        text-align: center;
+    }
+}

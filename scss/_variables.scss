@@ -1,0 +1,28 @@
+//sizes
+$headerHeight: 100px;
+$asideWidth: 210px;
+$footerHeight: 50px;
+
+//font
+$fontSize: 20px;
+
+//colors
+$gold: rgb(236, 203, 14);
+$pink: rgb(231, 184, 192);
+$blue: rgb(141, 141, 230);
+$green: rgb(112, 199, 112);
+$gray: #ccc;
+$blueviolet: rgb(85, 37, 131);
+$red: rgb(197, 62, 62);
+
+//grid gutters
+$gutterRight: .5rem;
+$gutterLeft: .5rem;
+$gutterRowRight: -$gutterRight;
+$gutterRowLeft: -$gutterLeft;
+
+//animation
+$transition: .3s;
+
+//holder
+$borderRadius: 20px;
